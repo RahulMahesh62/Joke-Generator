@@ -1,0 +1,1 @@
+let jokeContent = document.querySelector("");
