@@ -21,8 +21,9 @@ body {
 	flex-direction: column;
 	margin: 15px 40px;
 	padding: 15px;
-	height: auto;
-	width: auto;
+	min-height: 45%;
+	min-width: 60%;
+	max-width: 60%;
 	border-radius: 15px;
 	background-color: #175676;
 	-webkit-border-radius: 15px;
@@ -75,7 +76,9 @@ body {
 	#main {
 		margin: 25px;
 		padding: 10px;
-		height: auto;
+		height: 70%;
+		min-width: 70%;
+		min-height: 70%;
 	}
 
 	#heading {
